@@ -1,6 +1,6 @@
 
 
-此次经历，全程在genmi的帮助下完成。这是[聊天记录](https://gemini.google.com/share/ad342085855f)，附带全部细节。另有[参考文献](https://xungejiang.com/2022/07/14/lxd-new/)。
+此次经历，全程在gemini的帮助下完成。这是[聊天记录](https://gemini.google.com/share/ad342085855f)，附带全部细节。另有[参考文献](https://xungejiang.com/2022/07/14/lxd-new/)。
 
 分为部署，使用（管理员和用户），可能遇到的问题，容器表共四个文件，以及接下来的QA。
 
@@ -8,6 +8,9 @@
 
 0. 整体结构
 
+		  
+	
+	```
 		   ubuntu
 	     	 |虚拟
 	     Lxd模板（视情况而定，可以有不同的模板）
@@ -19,6 +22,7 @@
 	      +--+----+
 	      |       |
 	    env1 ... env4
+	```
 	
 	
 
